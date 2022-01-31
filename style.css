@@ -1,0 +1,105 @@
+body {
+    background: #0f0f0f;
+    color: white;
+}
+
+.fixed-content {
+    top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+/* TEXTS */
+
+.navbar-txt {
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 38px;
+}
+
+.title-txt {
+    font-family: 'Prompt', sans-serif;
+    font-size: 70px;
+}
+
+.text-txt {
+    font-family: 'Prompt', sans-serif;
+    font-size: 21px;
+}
+
+/* COLORS */
+
+.primary-color {
+    color: #ffffff;
+}
+
+.secondary-color {
+    color: #F7F16C;
+}
+
+.accent-color {
+    color: #fff74f;
+}
+
+.neutral-color {
+    color: #000000;
+}
+
+.bg-color {
+    background-color: #0f0f0f;
+}
+
+.bg-color2 {
+    background-color: #141414;
+}
+
+.bg-color3 {
+    background-color: #F7F16C;
+}
+
+/* bootstrap css for navbar */
+
+.navbar-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #F7F16C;
+    text-decoration: none;
+    background-color: #0f0f0f;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .navbar-link {
+      transition: none;
+    }
+  }
+  .navbar-link:hover, .nav-link:focus {
+    color: #fff74f;
+  }
+  .navbar-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: default;
+  }
+
+.activated :active :hover {
+    color: #fff74f;
+}
+
+/* contacts */
+
+.icon-contacts :hover {
+    fill: #fff74f;
+    cursor: pointer;
+}
+
+.icon-contacts2 :hover {
+    fill: rgb(213, 213, 213);
+    cursor: pointer;
+}
+
+.abc :hover {
+    color: rgb(213, 213, 213);
+}
